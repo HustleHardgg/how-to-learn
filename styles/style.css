@@ -388,8 +388,8 @@ margin-bottom: 0px;
 .footer__social-icon{
   flex-direction: column;
   display: flex;
-
   justify-content: space-between;
+  margin-right: 10px;
   }
 .links{
   text-decoration: none;
