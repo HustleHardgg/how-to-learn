@@ -384,11 +384,7 @@ margin-bottom: 0px;
   font-weight: 600;
 
 }
-.footer__column_content_social{
-  display: flex;
 
-
-}
 .footer__social-icon{
   flex-direction: column;
   display: flex;
