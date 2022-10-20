@@ -51,7 +51,7 @@
 
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -82,6 +82,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header__link {
@@ -91,7 +93,6 @@
 
 .description {
   justify-content: space-between;
-
   margin: auto;
   width: 80%;
   display: flex;
@@ -99,7 +100,6 @@
 }
 
 .two-columns {
-
   justify-content: space-between;
   display: flex;
 }
@@ -172,7 +172,6 @@
   width: 1100px;
   display: flex;
 
-
 }
 
 .table__cell {
@@ -187,14 +186,15 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .table__text {
-  margin-top: 0px;
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 0px;
 }
 
 .feynman {
@@ -275,10 +275,11 @@
   line-height: 1.15;
   font-weight: 600;
   margin-top: 0px;
+  z-index: 1;
 }
 
-.section-subtitle_dark {
-
+.section-subtitle_theme_dark {
+  z-index: 1;
   color: white;
   display: flex;
   margin-top: 20px;
@@ -297,21 +298,19 @@
 }
 
 .table__cell_theme_dark {
-  margin-top: 60px;
+  margin-top: 80px;
   width: 200px;
   flex-direction: column;
   display: flex;
 }
 
-.theme_dark {
+
+.table__heading_theme_dark {
   color: white;
 }
 
 .table__text_theme_dark {
   padding: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   color: white;
 }
 
@@ -335,7 +334,7 @@
   display: flex;
 }
 
-.place_footer {
+.logo_place_footer {
   z-index: 1;
   background-image: url(../images/logo_place_footer.svg);
   background-size: contain;
@@ -346,6 +345,9 @@
 }
 
 .footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   color: white;
   display: flex;
   margin-bottom: 18px;
@@ -379,6 +381,9 @@
   flex-direction: column;
   justify-content: space-between;
   margin-right: 10px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .footer__column-heading {
@@ -393,18 +398,20 @@
   margin-right: 10px;
 }
 
-.column-link {
+.footer__column-link {
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   list-style-type: none;
   text-decoration: none;
   color: white;
 }
 
-ul {
-  list-style-type: none;
+p{
   margin: 0px;
-  padding: 0px;
 }
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
   height: 568px;
