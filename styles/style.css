@@ -412,10 +412,6 @@ p{
   text-decoration: none;
   color: white;
 }
-
-p{
-  margin: 0px;
-}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
   height: 568px;
