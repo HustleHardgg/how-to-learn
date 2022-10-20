@@ -10,6 +10,10 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+p{
+  margin: 0px;
+  padding: 0px;
+}
 
 .header {
   padding: 0px;
