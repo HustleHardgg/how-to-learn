@@ -48,7 +48,6 @@
 .logo {
   height: 32px;
   width: 228px;
-
 }
 
 .logo_place_header {
@@ -57,8 +56,6 @@
   left: 64px;
   background-image: url(../images/logo_place_header.svg);
     /*alt="again two"*/
-
-
 }
 
 .header__title {
@@ -161,7 +158,6 @@
   font-size: 24px;
   font-weight: normal;
   justify-content: space-evenly;
-
 }
 
 .table {
@@ -171,7 +167,6 @@
   margin: auto;
   width: 1100px;
   display: flex;
-
 }
 
 .table__cell {

@@ -1,0 +1,7 @@
+.description {
+ /* justify-content: space-between;*/
+  margin: auto;
+  /*width: 80%;*/
+  display: flex;
+  margin-top: 100px;
+}
