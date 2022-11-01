@@ -1,4 +1,5 @@
 .khan__book-link {
+  align-self: baseline;
   opacity: 1;
   margin-left: 48px;
   text-decoration: none;
